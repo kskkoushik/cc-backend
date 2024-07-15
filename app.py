@@ -4,7 +4,9 @@ import json
 import google.generativeai as genai
 from flask_cors import CORS
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 def step1(query):
 
