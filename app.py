@@ -113,7 +113,7 @@ def step2(query):
 
 app = Flask(__name__)
 
-CORS(app , origins=["http://localhost:3000"])
+CORS(app , origins=["http://localhost:3000" , "https://coursecrafter-nine.vercel.app"])
 @app.route('/generate_topics', methods=['POST'])
 def generate_sts():
     user_query = request.form['query']
