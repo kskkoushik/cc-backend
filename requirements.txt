@@ -1,0 +1,6 @@
+google-generativeai
+python-dotenv
+flask
+gradio-client
+flask-cors
+gunicorn
